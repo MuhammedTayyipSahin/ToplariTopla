@@ -80,10 +80,8 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        // singleton ve observer patern
         CoreGameSignals.Instance.onLevelInitialize?.Invoke( _currentLevel % totalLevelCounter );
-        //uı signals
-
+        CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelType.Start,1);
     }
 
     public void OnNextLevel(){

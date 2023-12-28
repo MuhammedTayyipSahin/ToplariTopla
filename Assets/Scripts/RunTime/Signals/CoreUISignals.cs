@@ -20,6 +20,8 @@ public class CoreUISignals: MonoBehaviour{
     public UnityAction<int> onClosePanel = delegate{};
 
     public UnityAction onCloseALlPanels = delegate{};
+  
+
 
 
 

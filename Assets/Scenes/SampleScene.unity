@@ -389,6 +389,46 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114931325992485014, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2213445097741657689, guid: 19cd9709ab56f46dd83bee4f6012b9af, type: 3}
       propertyPath: m_Pivot.x
       value: 0
