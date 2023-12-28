@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 
 [Serializable]
-public struct LevelData 
+public class LevelData 
 {
     public List<PoolData> pools;
     
