@@ -29,6 +29,11 @@ public class CoreGameSignals : MonoBehaviour
    public UnityAction onLevelFailed = delegate {};
    public Func<int> onGetLevelValue = delegate { return 0; };
 
+    public UnityAction<byte> onStageAreaSuccessful = delegate { };
+        public UnityAction onStageAreaEntered = delegate { };
+        public UnityAction onFinishAreaEntered = delegate { };
+        public UnityAction onMiniGameAreaEntered = delegate { };
+        public UnityAction onMultiplierAreaEntered = delegate { };
 
 
 }
