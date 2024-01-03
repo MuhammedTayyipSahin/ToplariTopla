@@ -1,4 +1,5 @@
-using System;
+
+
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -9,8 +10,7 @@ public class UIEventsSubscriber : MonoBehaviour
     [SerializeField] private UIEventSubscriptionType type;
     [SerializeField] private Button button;
     
-    private UnityAction TextAction  = delegate{};
-    private UnityEvent TestAction = new UnityEvent();
+ 
 
     private UIManager _manager;
 

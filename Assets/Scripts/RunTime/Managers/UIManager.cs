@@ -56,16 +56,18 @@ public class UIManager : MonoBehaviour
 
     public void NextLevel(){
         CoreGameSignals.Instance.onNextLevel?.Invoke();
-        CoreGameSignals.Instance.onReset?.Invoke();
+       // CoreGameSignals.Instance.onReset?.Invoke();
     }
 
     public void RestartLevel(){
         CoreGameSignals.Instance.onRestartLevel?.Invoke();
-        CoreGameSignals.Instance.onReset?.Invoke();
+      //  CoreGameSignals.Instance.onReset?.Invoke();
 
     }   
 
     public void Play(){
+        Debug.LogWarning("UI Manager Tetiklendi");
+
         UISignals.Instance.onPlay?.Invoke();
         CoreUISignals.Instance.onClosePanel?.Invoke(1); 
         InputSignals.Instance.onEnableInput?.Invoke();
